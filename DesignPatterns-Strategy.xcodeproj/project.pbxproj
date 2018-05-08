@@ -12,6 +12,10 @@
 		EE2CFE8F20A1DA2B00ADFC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2CFE8E20A1DA2B00ADFC29 /* Assets.xcassets */; };
 		EE2CFE9220A1DA2B00ADFC29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2CFE9020A1DA2B00ADFC29 /* Main.storyboard */; };
 		EE2CFE9520A1DA2B00ADFC29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFE9420A1DA2B00ADFC29 /* main.m */; };
+		EE2CFE9E20A1DA4C00ADFC29 /* Composition.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFE9D20A1DA4C00ADFC29 /* Composition.m */; };
+		EE2CFEA120A1DA7000ADFC29 /* Compositor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFEA020A1DA7000ADFC29 /* Compositor.m */; };
+		EE2CFEA420A1DA9300ADFC29 /* SimpleCompositor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFEA320A1DA9300ADFC29 /* SimpleCompositor.m */; };
+		EE2CFEA720A1DAAC00ADFC29 /* ArrayCompositor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFEA620A1DAAC00ADFC29 /* ArrayCompositor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,14 @@
 		EE2CFE9320A1DA2B00ADFC29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE2CFE9420A1DA2B00ADFC29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE2CFE9620A1DA2B00ADFC29 /* DesignPatterns_Strategy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesignPatterns_Strategy.entitlements; sourceTree = "<group>"; };
+		EE2CFE9C20A1DA4C00ADFC29 /* Composition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Composition.h; sourceTree = "<group>"; };
+		EE2CFE9D20A1DA4C00ADFC29 /* Composition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Composition.m; sourceTree = "<group>"; };
+		EE2CFE9F20A1DA7000ADFC29 /* Compositor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Compositor.h; sourceTree = "<group>"; };
+		EE2CFEA020A1DA7000ADFC29 /* Compositor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Compositor.m; sourceTree = "<group>"; };
+		EE2CFEA220A1DA9300ADFC29 /* SimpleCompositor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleCompositor.h; sourceTree = "<group>"; };
+		EE2CFEA320A1DA9300ADFC29 /* SimpleCompositor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleCompositor.m; sourceTree = "<group>"; };
+		EE2CFEA520A1DAAC00ADFC29 /* ArrayCompositor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayCompositor.h; sourceTree = "<group>"; };
+		EE2CFEA620A1DAAC00ADFC29 /* ArrayCompositor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayCompositor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,14 @@
 			children = (
 				EE2CFE8820A1DA2B00ADFC29 /* AppDelegate.h */,
 				EE2CFE8920A1DA2B00ADFC29 /* AppDelegate.m */,
+				EE2CFE9C20A1DA4C00ADFC29 /* Composition.h */,
+				EE2CFE9D20A1DA4C00ADFC29 /* Composition.m */,
+				EE2CFE9F20A1DA7000ADFC29 /* Compositor.h */,
+				EE2CFEA020A1DA7000ADFC29 /* Compositor.m */,
+				EE2CFEA220A1DA9300ADFC29 /* SimpleCompositor.h */,
+				EE2CFEA320A1DA9300ADFC29 /* SimpleCompositor.m */,
+				EE2CFEA520A1DAAC00ADFC29 /* ArrayCompositor.h */,
+				EE2CFEA620A1DAAC00ADFC29 /* ArrayCompositor.m */,
 				EE2CFE8B20A1DA2B00ADFC29 /* ViewController.h */,
 				EE2CFE8C20A1DA2B00ADFC29 /* ViewController.m */,
 				EE2CFE8E20A1DA2B00ADFC29 /* Assets.xcassets */,
@@ -140,8 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2CFEA420A1DA9300ADFC29 /* SimpleCompositor.m in Sources */,
+				EE2CFEA720A1DAAC00ADFC29 /* ArrayCompositor.m in Sources */,
 				EE2CFE8D20A1DA2B00ADFC29 /* ViewController.m in Sources */,
+				EE2CFEA120A1DA7000ADFC29 /* Compositor.m in Sources */,
 				EE2CFE9520A1DA2B00ADFC29 /* main.m in Sources */,
+				EE2CFE9E20A1DA4C00ADFC29 /* Composition.m in Sources */,
 				EE2CFE8A20A1DA2B00ADFC29 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
